@@ -1,0 +1,26 @@
+h1 {
+  color: rgba(28,110,164,0.61);
+  line-height: 1.5;
+  font-size: 200%;
+  font-family: Impact, Charcoal, sans-serif;
+  letter-spacing: 0.2px;
+  word-spacing: 4.2px;
+}
+
+h2 {
+  line-height: 0;
+}
+
+h3 {
+  line-height: 0;
+  font-family: Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 0;
+  word-spacing: 2px;
+}
+
+h4 {
+  line-height: 0;
+  font-style: italic;
+  font-size: 90%;
+}
