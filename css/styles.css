@@ -1,10 +1,18 @@
 h1 {
-  color: rgba(28,110,164,0.61);
-  line-height: 1.5;
-  font-size: 200%;
-  font-family: Impact, Charcoal, sans-serif;
-  letter-spacing: 0.2px;
-  word-spacing: 4.2px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 36px;
+  letter-spacing: 2.2px;
+  word-spacing: 2.8px;
+  color: #5165B7;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
 }
 
 h2 {
@@ -23,4 +31,52 @@ h4 {
   line-height: 0;
   font-style: italic;
   font-size: 90%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 3px;
+  width: 10%;
+}
+
+table.center {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+div.container {
+  width:98%;
+  margin:1%;
+}
+table#table1 {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:100px;
+}
+tr,td {
+  text-align:center;
+}
+
+
+/*********************Classes*********************/
+.name{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 31px;
+  letter-spacing: 2.2px;
+  word-spacing: 2.8px;
+  color: #5165B7;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  line-height: 0.75;
+  width:auto;
+  margin: auto;
+  text-align: left;
 }
