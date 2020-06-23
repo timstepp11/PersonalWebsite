@@ -9,14 +9,16 @@ h1 {
   font-style: normal;
   font-variant: small-caps;
   text-transform: capitalize;
-  width: 70%;
   margin-left: 15%;
   margin-right: 15%;
   text-align: center;
 }
 
 h2 {
-  line-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0;
+  margin: 0;
 }
 
 h3 {
@@ -49,9 +51,9 @@ table.center {
 }
 
 div.container {
-  width:98%;
-  margin:1%;
+  column-count: 3;
 }
+
 table#table1 {
   text-align:center;
   margin-left:auto;
@@ -59,7 +61,7 @@ table#table1 {
   width:100px;
 }
 tr,td {
-  text-align:center;
+
 }
 
 
